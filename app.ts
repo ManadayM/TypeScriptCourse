@@ -1,20 +1,13 @@
-function Greeter(greeting: string) {
-    this.greeting = greeting;
-}
+// string
+let myName = 'Manaday';
+myName = 28;
 
-Greeter.prototype.greet = function() {
-    return "Hello, " + this.greeting;
-}
+// number
+let myAge = 27.5;
+myAge = 'twenty seven';
 
-// Oops, we're passing an object when we want a string. This will print 
-// "Hello, [object Object]" instead of "Hello, world" without error.
-// let greeter = new Greeter({ message: "world" });
-let greeter = new Greeter("world");
+// boolean
+let hasHobbies = false;
+hasHobbies = 1;
 
-let button = document.createElement('button');
-button.textContent = "Say Hello";
-button.onclick = function() {
-    alert(greeter.greet());
-};
-
-document.body.appendChild(button);
+// this will show compile time errors
