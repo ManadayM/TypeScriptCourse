@@ -1,13 +1,13 @@
 // string
-let myName = 'Manaday';
+let myName: string = 'Manaday';
 // myName = 28;
 
 // number
-let myAge = 27.5;
+let myAge: number = 27.5;
 // myAge = 'twenty seven';
 
 // boolean
-let hasHobbies = false;
+let hasHobbies: boolean = false;
 // hasHobbies = 1;
 
 // this will work as for undefined variables typescript sets implicit type to "any"
