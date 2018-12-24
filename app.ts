@@ -18,4 +18,11 @@ myRealAge1 = '27';
 // this is explicit type
 let myRealAge2: number;
 myRealAge2 = 27;
-myRealAge2 = '27';
+// myRealAge2 = '27';
+
+// array example
+let hobbies = ['Cooking', 'Sports'];
+// hobbies = [100]; /* will throw compile-time error */
+
+let hobbies2: any[] = ['Cooking', 'Sports'];
+hobbies2 = [100]; /* won't throw compile-time error */

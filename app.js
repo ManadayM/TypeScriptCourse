@@ -14,4 +14,9 @@ myRealAge1 = '27';
 // this is explicit type
 var myRealAge2;
 myRealAge2 = 27;
-myRealAge2 = '27';
+// myRealAge2 = '27';
+// array example
+var hobbies = ['Cooking', 'Sports'];
+// hobbies = [100]; /* will throw compile-time error */
+var hobbies2 = ['Cooking', 'Sports'];
+hobbies2 = [100]; /* won't throw compile-time error */
