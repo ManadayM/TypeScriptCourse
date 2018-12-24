@@ -26,3 +26,8 @@ let hobbies = ['Cooking', 'Sports'];
 
 let hobbies2: any[] = ['Cooking', 'Sports'];
 hobbies2 = [100]; /* won't throw compile-time error */
+
+// tuples
+// tuples are really just arrays with mixed types and 
+// a limited number of items.
+let address: [string, number] = ["Super street", 99];

@@ -20,3 +20,7 @@ var hobbies = ['Cooking', 'Sports'];
 // hobbies = [100]; /* will throw compile-time error */
 var hobbies2 = ['Cooking', 'Sports'];
 hobbies2 = [100]; /* won't throw compile-time error */
+// tuples
+// tuples are really just arrays with mixed types and 
+// a limited number of items.
+var address = ["Super street", 99];
